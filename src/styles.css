@@ -1,0 +1,128 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+h1, h2 {
+    color: #555;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+    color: #555;
+}
+
+ul li a {
+    text-decoration: underline;
+    color: #555;
+}
+
+ul li a:hover {
+    color: #0073e6;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    background-image: url('wave-background-op50.svg');
+    background-size: 150%; /* Заполняет контейнер, сохраняя пропорции */
+    background-position: center -5px; /* Центрирует фон */
+    background-clip: padding-box; /* Обрезает фон по padding */
+    padding: 0 20px; /* Одинаковые отступы слева и справа */
+
+}
+
+.position-header {
+    text-align: center; /* Центрируем текст */
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.position-header h1 {
+    margin: 0;
+    font-size: 1.5em;
+    color: #555;
+}
+
+.resume-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 0;
+}
+
+.resume-header p {
+    color: #555;
+}
+
+i {
+    margin-right: 10px;
+}
+
+.left-section, .right-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Равномерно распределяем элементы по высоте */
+    height: 100%; /* Растягиваем на всю высоту контейнера */
+}
+
+.left-section h1, .left-section h2 {
+    margin: 0;
+    text-align: left;
+}
+
+.center-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 15px;
+    object-fit: cover;
+    border: 3px solid #555;
+}
+
+.section {
+    padding: 2px 20px;
+    margin-bottom: 20px;
+    background-color: #f2e7f1d1; /* Цвет фона */
+    border-radius: 15px; /* Закругленные углы */
+}
+
+.section-title {
+    border-bottom: 2px solid #55555557;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    font-size: 1.2em;
+}
+
+.education-info {
+    display: flex;
+    align-items: center; /* Вертикально центрирует элементы */
+}
+
+.uni-logo {
+    width: auto; /* Автоматическая ширина */
+    height: 80px; /* Занимает всю высоту li */
+    object-fit: contain; /* Сохраняет пропорции картинки */
+    margin-left: auto; /* Прикрепляет картинку к правому краю */
+}
+
