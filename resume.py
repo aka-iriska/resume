@@ -17,7 +17,8 @@ def main():
         'margin-top': '0',
         'margin-right': '0',
         'margin-bottom': '0',
-        'margin-left': '0'
+        'margin-left': '0',
+        'page-size': 'A4',  # Указание размера страницы
     })
 
 

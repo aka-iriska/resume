@@ -1,6 +1,6 @@
 @page {
-    size: A4;  /* Или любая другая необходимая форма */
-    margin: 20mm;  /* Отступы */
+    size: 260mm 420mm;  /* Или любая другая необходимая форма */
+    margin: 0;  /* Отступы */
 }
 
 body {
@@ -127,8 +127,10 @@ i {
 
 .education-info {
     display: flex;
+    justify-content: space-between;
     align-items: center; /* Вертикально центрирует элементы */
     margin: 0;
+    width: 100%;
 }
 
 .uni-logo {
