@@ -1,9 +1,15 @@
+@page {
+    size: A4;  /* Или любая другая необходимая форма */
+    margin: 20mm;  /* Отступы */
+}
+
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     margin: 20px;
     background-color: #f9f9f9;
     color: #333;
+    font-size: 0.9em; /* Уменьшает размер шрифта */
 }
 
 h1, h2 {
@@ -107,6 +113,11 @@ i {
     border-radius: 15px; /* Закругленные углы */
 }
 
+.section ul {
+    margin-bottom: 0;
+    margin-top: 5px;
+}
+
 .section-title {
     border-bottom: 2px solid #55555557;
     margin-bottom: 10px;
@@ -117,6 +128,7 @@ i {
 .education-info {
     display: flex;
     align-items: center; /* Вертикально центрирует элементы */
+    margin: 0;
 }
 
 .uni-logo {
@@ -124,5 +136,17 @@ i {
     height: 80px; /* Занимает всю высоту li */
     object-fit: contain; /* Сохраняет пропорции картинки */
     margin-left: auto; /* Прикрепляет картинку к правому краю */
+}
+.t-logo{
+    width: auto; /* Автоматическая ширина */
+    height: 60px; /* Занимает всю высоту li */
+    object-fit: contain; /* Сохраняет пропорции картинки */
+    margin-left: auto;
+}
+.ref-table {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Разместить элементы с максимальным расстоянием */
+    width: 100%;
 }
 
