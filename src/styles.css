@@ -45,11 +45,11 @@ ul li a:hover {
 }
 
 .header {
-    background-image: url('wave-background-op50.svg');
+    background-image: url('wave-background-green.svg');
     background-size: 150%; /* Заполняет контейнер, сохраняя пропорции */
     background-position: center -5px; /* Центрирует фон */
     background-clip: padding-box; /* Обрезает фон по padding */
-    padding: 0 20px; /* Одинаковые отступы слева и справа */
+    padding: 20px 20px; /* Одинаковые отступы слева и справа */
 
 }
 
@@ -109,7 +109,7 @@ i {
 .section {
     padding: 2px 20px;
     margin-bottom: 20px;
-    background-color: #f2e7f1d1; /* Цвет фона */
+    background-color: rgba(229, 248, 235, 0.85); /* Цвет фона */
     border-radius: 15px; /* Закругленные углы */
 }
 
