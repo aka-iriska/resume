@@ -1,23 +1,27 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Резюме</title>
+    <title>Резюме - Дулина Ирина, ML Engineer</title>
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet"/>
 </head>
+
 <body>
 <div class="container">
+
+    <!-- ШАПКА -->
     <div class="header">
-                <div class="position-header">
-                    <h2>Backend-/Android-разработчик</h2>
-                </div>
+        <div class="position-header">
+            <h2>ML Engineer / Data Scientist</h2>
+        </div>
         <div class="resume-header">
             <div class="left-section">
                 <h2>Дулина Ирина</h2>
                 <ul>
-                    <li>15.04.2004 (21 год)</li>
+                    <li>22 года</li>
                     <li>г. Москва</li>
                     <li>Гражданство: РФ</li>
                 </ul>
@@ -27,83 +31,247 @@
             </div>
             <div class="right-section">
                 <ul>
-                    <li><i class="fas fa-envelope"></i><a href="mailto:irisdulina@yandex.ru">irisdulina@yandex.ru</a>
+                    <li><i class="ri-mail-line"></i><a href="mailto:irisdulina@yandex.ru">irisdulina@yandex.ru</a>
                     </li>
-                    <li><i class="fas fa-phone-alt"></i><a href="tel:+79296128493">+7 (929) 612-84-93</a></li>
-                    <li><i class="fab fa-github"></i><a href="https://github.com/aka-iriska"
-                                                        target="_blank">aka-iriska</a></li>
-                    <li><i class="fab fa-telegram-plane"></i><a href="https://t.me/dulinaira"
-                                                                target="_blank">dulinaira</a></li>
+                    <li><i class="ri-phone-line"></i><a href="tel:+79296128493">+7 (929) 612-84-93</a></li>
+                    <li><i class="ri-github-line"></i><a href="https://github.com/aka-iriska"
+                                                         target="_blank">aka-iriska</a></li>
+                    <li><i class="ri-telegram-line"></i><a href="https://t.me/dulinaira"
+                                                           target="_blank">dulinaira</a></li>
                 </ul>
             </div>
         </div>
-                <div class="time-header">
-                    <ul>
-                        <li>График: гибридный/удалённый </li>
-                        <li>Количество часов: 40</li>
-                    </ul>
+        <div class="time-header">
+            <div>График: гибридный / удалённый</div>
+            <div>Занятость: 20–30 ч/нед.</div>
+        </div>
+    </div>
+
+
+    <div class="resume-body">
+        <div class="left-column">
+
+    <!-- О СЕБЕ -->
+    <div class="section">
+        <h2 class="section-title">О себе</h2>
+        <ul class="skills-list">
+            <li><strong>Цель:</strong> Стажировка с перспективой перехода в штат; нацелена на долгосрочное развитие
+                в компании.
+            </li>
+            <li><strong>Языки:</strong> Английский (B2 / Technical), Русский (родной).</li>
+        </ul>
+    </div>
+
+    <!-- ОПЫТ И ПРОЕКТЫ -->
+    <div class="section">
+        <h2 class="section-title"><i class="ri-briefcase-line"></i> Опыт и Проекты</h2>
+
+        <!-- Агролоджик -->
+        <div class="job-item">
+            <div class="job-header-logo">
+                <div class="job-title-block">
+                    <h3>ML Engineer <span>| ООО «Агролоджик» · Стартап</span></h3>
+                    <span class="job-date">сент. 2023 - дек. 2025</span>
                 </div>
-    </div>
-
-    <div class="section">
-        <h2 class="section-title">Образование</h2>
-        <div class="education-info">
-            <ul>
-                <li></i><strong>МГТУ им.Баумана</strong>
-                    <br><a href="https://bmstu.ru/chair/komputernye-sistemy-i-seti">Факультет: Информатика и системы
-                        управления</a>
-                    <br>Бакалавр (2022–2026), 4 курс
+                <img src="kallosus_1.svg" alt="Агролоджик" class="company-logo">
+            </div>
+            <ul class="job-description">
+                <li>Диагностика болезней растений на платформе <a href="https://kallosus.ru"
+                                                                  target="_blank">Kallosus</a> - анализ видеопотока с
+                    применением CNN / ResNet.
                 </li>
-
+                <li>Подготовка агрономических датасетов и обучение моделей классификации болезней.</li>
+                <li>Интеграция моделей в backend-сервис через REST API (FastAPI + RabbitMQ).</li>
+                <li><strong>Результат:</strong> прототип платформы с работающей классификацией; по теме вышла
+                    научная публикация в IEEE Xplore.
+                </li>
             </ul>
-            <img src="BMSTU-black.svg" alt="МГТУ им.Баумана" class="uni-logo">
+            <div class="job-tags">
+                <span class="tag tag-sm">CNN</span> <span class="tag tag-sm">ResNet</span> <span class="tag tag-sm">PyTorch</span> <span class="tag tag-sm">FastAPI</span>
+            </div>
         </div>
-        <div class="education-info">
-            <ul>
-                <li><strong>Т-Банк & МГТУ им.Баумана</strong>
-                    <br><a href="https://github.com/aka-iriska/resume/blob/main/universal_diploma.pdf">Android-разработка
-                        (осень 2024)
-                    </a></li>
+
+        <!-- Стартап этикетки -->
+        <div class="job-item">
+            <div class="job-header">
+                <h3>ML/DL Developer <span>| Стартап - сегментация этикеток</span></h3>
+                <span class="job-date">2025 - н.в.</span>
+            </div>
+            <ul class="job-description">
+                <li>Система обнаружения и сегментации этикеток на цилиндрических объектах на базе U-Net.</li>
+                <li>Настройка пайплайна обучения, подготовки данных и аугментации.</li>
+                <li>Оценка качества через IoU (0.85 на валидации); экспорт модели в ONNX для продакшна.</li>
+                <li><strong>Результат:</strong> стабильная сегментация; готовится научная публикация (май 2026).
+                </li>
             </ul>
-            <img src="TBank.svg" alt="Т-Банк" class="t-logo">
+            <div class="job-tags">
+                <span class="tag tag-sm">U-Net</span> <span class="tag tag-sm">PyTorch</span> <span class="tag tag-sm">ONNX</span> <span class="tag tag-sm">IoU</span>
+            </div>
+        </div>
+
+        <!-- Backend -->
+        <div class="job-item">
+            <div class="job-header">
+                <h3>Backend Developer <span>| Инфраструктурные задачи</span></h3>
+            </div>
+            <ul class="job-description">
+                <li>Проектирование REST API на FastAPI; контейнеризация сервисов с Docker.</li>
+            </ul>
+            <div class="job-tags">
+                <span class="tag tag-sm">FastAPI</span> <span class="tag tag-sm">Docker</span> <span class="tag tag-sm">PostgreSQL</span>
+            </div>
+        </div>
+
+        <!-- Кластеризация -->
+        <div class="job-item">
+            <div class="job-header">
+                <h3>Учебный проект <span>| Сравнение подходов к классификации текста</span></h3>
+            </div>
+            <ul class="job-description">
+                <li>Бинарная классификация веб-контента по URL и заголовкам (несбалансированный датасет).</li>
+                <li>Сравнение TF-IDF, FastText и BERT; токенизация, стемминг, oversampling.</li>
+                <li>Оценка через Precision, Recall, F1; анализ ошибок модели.</li>
+            </ul>
+            <div class="job-tags">
+                <span class="tag tag-sm">TF-IDF</span> <span class="tag tag-sm">FastText</span> <span class="tag tag-sm">BERT</span> <span class="tag tag-sm">scikit-learn</span> <span class="tag tag-sm">NLTK</span>
+            </div>
+        </div>
+    </div>
+    </div> <!-- end left-column -->
+    <div class="right-column">
+
+    <!-- НАВЫКИ -->
+    <div class="section">
+        <h2 class="section-title"><i class="ri-tools-line"></i> Профессиональные навыки</h2>
+
+        <div class="skill-row">
+            <span class="skill-cat">Machine Learning</span>
+            <div class="tags">
+                <span class="tag">Python</span>
+                <span class="tag">NumPy</span>
+                <span class="tag">Pandas</span>
+                <span class="tag">scikit-learn</span>
+                <span class="tag">PyTorch</span>
+                <span class="tag">t-SNE</span>
+                <span class="tag">UMAP</span>
+                <span class="tag">ROC-AUC</span>
+                <span class="tag">F1</span>
+            </div>
+        </div>
+
+        <div class="skill-row">
+            <span class="skill-cat">Computer Vision</span>
+            <div class="tags">
+                <span class="tag">CNN</span>
+                <span class="tag">ResNet</span>
+                <span class="tag">U-Net</span>
+                <span class="tag">ONNX</span>
+                <span class="tag">IoU</span>
+            </div>
+        </div>
+
+        <div class="skill-row">
+            <span class="skill-cat">NLP</span>
+            <div class="tags">
+                <span class="tag">RNN</span>
+                <span class="tag">BERT</span>
+                <span class="tag">FastText</span>
+                <span class="tag">TF-IDF</span>
+            </div>
+        </div>
+
+        <div class="skill-row">
+            <span class="skill-cat">Backend &amp; DevOps</span>
+            <div class="tags">
+                <span class="tag">FastAPI</span>
+                <span class="tag">Docker</span>
+                <span class="tag">PostgreSQL</span>
+                <span class="tag">Redis</span>
+                <span class="tag">S3</span>
+                <span class="tag">Nginx</span>
+                <span class="tag">CI/CD</span>
+                <span class="tag">Git</span>
+                <span class="tag">Bash</span>
+            </div>
+        </div>
+
+        <div class="skill-row">
+            <span class="skill-cat">Математика</span>
+            <div class="tags">
+                <span class="tag tag-gray">Линейная алгебра</span>
+                <span class="tag tag-gray">Теорвер</span>
+                <span class="tag tag-gray">Матстатистика</span>
+                <span class="tag tag-gray">Математический анализ</span>
+            </div>
         </div>
     </div>
 
+    <!-- НАУЧНАЯ ДЕЯТЕЛЬНОСТЬ -->
     <div class="section">
-        <h2 class="section-title">Профессиональные навыки</h2>
-        <ul>
-            <li>Kotlin, Jetpack Compose, Dependency Injection, Dagger, MVVM, Python, FastApi, PostgreSQL, Docker,
-                Golang
-            </li>
-        </ul>
+        <h2 class="section-title"><i class="ri-article-line"></i> Научная деятельность</h2>
+        <div class="science-item">
+            <div class="science-title">«Комплексный подход к сегментации и распознаванию этикеток на цилиндрических
+                поверхностях с использованием глубокого обучения»
+            </div>
+            <div class="science-sub"><em>A Comprehensive Approach to Label Segmentation and Recognition on
+                Cylindrical Surfaces Using Deep Learning</em></div>
+            <div class="science-meta">Принята к публикации · выход май 2026</div>
+        </div>
     </div>
 
+
+    <!-- ОБРАЗОВАНИЕ -->
     <div class="section">
-        <h2 class="section-title">Опыт работы</h2>
-        <ul>
-            <li>Сейчас занимаюсь <b>full-stack</b> разработкой приложения для <b>стартапа</b>: backend на Python, мобильное приложение
-                на нативном языке Kotlin, а также созданием <b>сервиса на Golang</b> для курсовой работы.
-            </li>
-            Также в рамках обучения были созданы следующие приложения:
-            <li>
-                <div class="ref-table"><a href="https://github.com/aka-iriska/AlbumAndroidApp">MyAlbum</a>
-                    <a class="ref" href="https://www.rustore.ru/catalog/app/com.example.albumapp">RuStore</a></div>
-                Приложение для создания и ведения альбома, разработанное в качестве курсового и pet-проекта.
-                Использовала архитектуру MVVM, библиотеку Room для работы с локальной базой данных и фреймворк Jetpack
-                Compose.
-            </li>
-            <li><a href="https://github.com/aka-iriska/TBankCourse">TBankCourseApp</a>
-                <br>Разработала приложение для отображения шуток, с поддержкой локального хранения, загрузки данных из
-                сети и их временного кеширования. Использовала ту же библиотеку Room,
-                архитектурный подход MVVM и чистую архитектуру с внедрением зависимостей (Dependency Injection).
-            </li>
-        </ul>
+        <h2 class="section-title"><i class="ri-graduation-cap-line"></i> Образование</h2>
+
+        <div class="edu-row">
+            <div class="edu-logo-wrap">
+                <img src="BMSTU-black.svg" alt="МГТУ" class="edu-logo">
+            </div>
+            <div>
+                <div class="edu-name">МГТУ им. Н.Э. Баумана</div>
+                <div class="edu-sub"><a href="https://bmstu.ru/chair/komputernye-sistemy-i-seti">Информатика и
+                    системы управления</a> · Бакалавр, 4 курс (2022–2026)
+                </div>
+            </div>
+        </div>
+
+        <div class="edu-row">
+            <div class="edu-logo-wrap">
+                <img src="TBank.svg" alt="Т-Банк" class="edu-logo">
+            </div>
+            <div>
+                <div class="edu-name">Т-Банк &amp; МГТУ им. Н.Э. Баумана</div>
+                <div class="edu-sub"><a
+                        href="https://github.com/aka-iriska/resume/blob/main/universal_diploma.pdf">Android-разработка</a>
+                    · осень 2024
+                </div>
+            </div>
+        </div>
+
+        <div class="edu-row">
+            <div class="edu-icon"><i class="ri-computer-line"></i></div>
+            <div>
+                <div class="edu-name">Цифровая Кафедра</div>
+                <div class="edu-sub">Web-разработка · 2023-2024</div>
+            </div>
+        </div>
+
+        <div class="edu-row">
+            <div class="edu-logo-wrap">
+                <img src="vk-logo.svg" alt="VK" class="edu-logo">
+            </div>
+            <div>
+                <div class="edu-name">VK Education</div>
+                <div class="edu-sub">«Основы машинного обучения» · 2025 - н.в.</div>
+            </div>
+        </div>
     </div>
 
-    <div class="section">
-        <h2 class="section-title">Дополнительные сведения</h2>
-        <p>Английский язык (B2)</p>
-    </div>
+    </div> <!-- end right-column -->
+    </div> <!-- end resume-body -->
+
 </div>
 </body>
+
 </html>

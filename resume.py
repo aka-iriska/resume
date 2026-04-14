@@ -1,6 +1,13 @@
 import argparse
-from weasyprint import HTML
+import os
+import sys
 
+# Добавляем путь к GTK в список DLL-директорий Windows (требуется для Python 3.8+)
+gtk_path = r"D:\ProgramFiles\GTK3-Runtime Win64\bin"
+if os.path.exists(gtk_path) and hasattr(os, 'add_dll_directory'):
+    os.add_dll_directory(gtk_path)
+
+from weasyprint import HTML
 
 def main():
     # Создаем парсер аргументов
@@ -20,7 +27,6 @@ def main():
         'margin-left': '0',
         'page-size': 'A4',  # Указание размера страницы
     })
-
 
 if __name__ == '__main__':
     main()
