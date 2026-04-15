@@ -1,1 +1,1 @@
-Резюме находится в следующем файле: [CV.pdf](CV.pdf)
+Резюме находится в следующем файле: [CV_Dulina_Irina.pdf](CV_Dulina_Irina.pdf)
