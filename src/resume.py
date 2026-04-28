@@ -12,7 +12,7 @@ from weasyprint import HTML
 def main():
     # Создаем парсер аргументов
     parser = argparse.ArgumentParser(description='Convert HTML to PDF.')
-    parser.add_argument('-inp', '--input_file', type=str, default="src/resume.html",
+    parser.add_argument('-inp', '--input_file', type=str, default="src/resume_cu.html",
                         help='Path to the input HTML file.')
     parser.add_argument('-out', '--output_file', type=str, default="CV_Dulina_Irina.pdf", help='Path to the output PDF file.')
 
